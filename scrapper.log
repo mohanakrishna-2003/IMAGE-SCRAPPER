@@ -1,0 +1,159 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\app.py", line 15, in homepage
+    return render_template("index.html")
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 22:57:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 22:57:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\app.py", line 15, in homepage
+    return render_template("index.html")
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 22:59:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\app.py", line 15, in homepage
+    return render_template("index.html")
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\Users\Badri\Desktop\pwskills projects\IMAGE SCRAPPER\.venv\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:00:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:02:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:03:00] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:03:00] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:03:30] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:29:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:29:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:29:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:30:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:33:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:33:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:33:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:The empty string is not valid username.
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:34:10] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:42:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:42:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:42:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:42:19] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:56:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:56:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:56:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name 'urllib' is not defined
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2023 23:57:10] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:06:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:06:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:06:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:ac-xuwvfch-shard-00-00.tohzqtt.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997),ac-xuwvfch-shard-00-01.tohzqtt.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997),ac-xuwvfch-shard-00-02.tohzqtt.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997), Timeout: 30s, Topology Description: <TopologyDescription id: 63ff9b508b45f6cadc170549, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-xuwvfch-shard-00-00.tohzqtt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xuwvfch-shard-00-00.tohzqtt.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')>, <ServerDescription ('ac-xuwvfch-shard-00-01.tohzqtt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xuwvfch-shard-00-01.tohzqtt.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')>, <ServerDescription ('ac-xuwvfch-shard-00-02.tohzqtt.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-xuwvfch-shard-00-02.tohzqtt.mongodb.net:27017: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:997)')>]>
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:07:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:19:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:19:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:19:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [02/Mar/2023 00:20:40] "POST /review HTTP/1.1" 200 -
